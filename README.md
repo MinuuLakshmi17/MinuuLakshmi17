@@ -41,14 +41,14 @@
 
 ## 🔥 Featured Projects
 
-| Project | What it is |
+| Project | Description |
 |---|---|
-| [raft-kv-store](https://github.com/MinuuLakshmi17/raft-kv-store) | Distributed key-value store in Go — hand-rolled Raft consensus, chaos-tested `kill -9` failover |
-| [task-scheduler](https://github.com/MinuuLakshmi17/task-scheduler) | Multi-process job scheduler in C — shared memory, semaphores, crash-resilient workers |
-| [workout-nutrition-api](https://github.com/MinuuLakshmi17/workout-nutrition-api) | Multi-user FastAPI backend — JWT rotation, Redis caching, Celery, Docker |
-| [serverless-url-shortener](https://github.com/MinuuLakshmi17/serverless-url-shortener) | Serverless URL shortener on AWS Lambda — idempotent links, DynamoDB/PostgreSQL backends |
-| [mini-kv-store](https://github.com/MinuuLakshmi17/mini-kv-store) | Redis-inspired KV store from scratch in C — TCP server, hash tables, AOF persistence |
-| [intelligent-network-threat-detection](https://github.com/MinuuLakshmi17/intelligent-network-threat-detection) | ML intrusion-detection pipeline — feature engineering, Random Forest, inference demo |
+| [raft-kv-store](https://github.com/MinuuLakshmi17/raft-kv-store) | Distributed key-value store in Go built on a from-scratch Raft implementation. Survives leader failure with no loss of committed writes, verified by kill -9 chaos tests. |
+| [task-scheduler](https://github.com/MinuuLakshmi17/task-scheduler) | Multi-process job scheduler in C using shared memory, POSIX semaphores and signals, with crash-resilient worker processes. |
+| [workout-nutrition-api](https://github.com/MinuuLakshmi17/workout-nutrition-api) | Multi-user FastAPI backend with rotating JWT auth, Redis caching and rate limiting, Celery background jobs and Docker Compose deployment. |
+| [serverless-url-shortener](https://github.com/MinuuLakshmi17/serverless-url-shortener) | Serverless URL shortener on AWS Lambda with idempotent link creation and pluggable DynamoDB and PostgreSQL storage backends. |
+| [mini-kv-store](https://github.com/MinuuLakshmi17/mini-kv-store) | Redis-style in-memory key-value store written from scratch in C, with TCP networking, custom hash tables and append-only persistence. |
+| [intelligent-network-threat-detection](https://github.com/MinuuLakshmi17/intelligent-network-threat-detection) | Network intrusion detection pipeline with engineered flow features, a Random Forest classifier and a working inference demo. |
 
 ---
 
